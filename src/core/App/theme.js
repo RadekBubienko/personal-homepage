@@ -23,7 +23,7 @@ const common = {
     tabletVerticalMax: 991,
     tabletHorizontalMax: 1199,
   },
-  boxShadow: "0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16 px 58px rgba(9, 10, 51, 0.03)",
+  boxShadow: "0px 0px 18px #000000a0",
   borderRadiusSmall: "4px",
 };
 
