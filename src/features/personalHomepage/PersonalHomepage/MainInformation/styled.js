@@ -23,6 +23,7 @@ export const Avatar = styled.img`
   width: 30vw;
   max-width: 384px;
   border-radius: 50%;
+  box-shadow: ${({ theme }) => theme.boxShadow};
 
   @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     width: 132px;
