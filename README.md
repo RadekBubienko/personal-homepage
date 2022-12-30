@@ -1,4 +1,24 @@
-# Getting Started with Create React App
+# Personal Homepage - Radek Bubienko
+
+![Screenshot](screenshot.png)
+
+### Description
+Personal homepage that presents informations about my skills and created projects.
+
+## Demo
+Open [https://radekbubienko.github.io/personal-homepage/](https://radekbubienko.github.io/personal-homepage/)
+
+## Technologies
+- React
+- NPM
+- React-app
+- React-Saga
+- Redux (Toolkit)
+- Github API (fetch)
+- JavaScript: ES6+
+- Responsive Web Design
+- CSS Grid
+- CSS Flexbox
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
