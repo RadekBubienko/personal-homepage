@@ -15,20 +15,20 @@ export const PersonalHomepage = () => (
 
     <main>
       <Skills
-        title={(
+        title={
           <>
             My skillset includes <Icon src={toolsIcon} alt="" />
           </>
-        )}
+        }
         skills={skills}
       />
 
       <Skills
-        title={(
+        title={
           <>
             What I wont to learn next <Icon src={rocketIcon} alt="" />
           </>
-        )}
+        }
         skills={nextSkills}
       />
 

@@ -24,5 +24,5 @@ export const socials = [
     name: "Instagram",
     url: "http://instagram.com",
     Icon: styleIcon(InstagramIcon),
-  },  
-]
+  },
+];

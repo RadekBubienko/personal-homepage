@@ -22,7 +22,7 @@ export const Text = styled.span`
   font-weight: bold;
   margin-right: 12px;
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     display: none;
   }
 `;
@@ -43,9 +43,11 @@ export const IconWrapper = styled.span`
   display: flex;
   transition: transform 0.3s;
 
-  ${({ moveToRight }) => moveToRight && css`
-    transform: translateX(20px);
-  `}
+  ${({ moveToRight }) =>
+    moveToRight &&
+    css`
+      transform: translateX(20px);
+    `}
 `;
 
 export const Icon = styled(SunIcon)`

@@ -1,4 +1,4 @@
-import styled, { keyframes} from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { ReactComponent as Spinner } from "./spinner.svg";
 
 const rotate = keyframes`
@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
   display: grid;
   justify-items: center;
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 18px;
     margin-top: 32px;
   }
@@ -27,7 +27,7 @@ export const StyledSpinner = styled(Spinner)`
   color: ${({ theme }) => theme.colors.primary};
   height: auto;
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     margin-top: 32px;
     width: 60px;
   }

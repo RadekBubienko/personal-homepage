@@ -8,13 +8,12 @@ export const ErrorBox = () => (
     <WarningIcon />
     <Header>Ooops! Something went&nbsp;wrong...</Header>
     <Paragraph>
-      Sorry, failed to load Github&nbsp;project.<br />
+      Sorry, failed to load Github&nbsp;project.
+      <br />
       You can check them directly&nbsp;on&nbsp;Github.
     </Paragraph>
-    <ButtonLink
-      href={`https://github.com/${githubUsername}`}
-      target="_blank">
-        Go to Github
+    <ButtonLink href={`https://github.com/${githubUsername}`} target="_blank">
+      Go to Github
     </ButtonLink>
   </Wrapper>
 );

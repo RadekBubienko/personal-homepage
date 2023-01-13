@@ -9,7 +9,7 @@ export const List = styled.ul`
   padding: 0;
   grid-gap: 32px;
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
     grid-template-columns: 1fr;
     grid-gap: 24px;
   }
@@ -28,7 +28,7 @@ export const Tile = styled.li`
     border-color: ${({ theme }) => theme.colors.tile.borderHover};
   }
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     padding: 20px;
   }
 `;
@@ -38,7 +38,7 @@ export const Name = styled.h3`
   color: ${({ theme }) => theme.colors.tile.header};
   margin: 0;
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 16px;
   }
 `;
@@ -47,7 +47,7 @@ export const Description = styled.p`
   margin-top: 24px;
   line-height: 1.4;
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 14px;
     margin-top: 16px;
   }
@@ -60,7 +60,7 @@ export const Links = styled.dl`
   grid-gap: 8px;
   line-height: 1.6;
 
-  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 14px;
     margin-top: 16px;
   }

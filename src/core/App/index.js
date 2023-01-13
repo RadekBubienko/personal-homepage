@@ -7,17 +7,15 @@ import { selectIsDarkTheme } from "../../common/themeSlice";
 import { PersonalHomepage } from "../../features/personalHomepage/PersonalHomepage";
 
 export const App = () => {
-const isDarkTheme = useSelector(selectIsDarkTheme);
+  const isDarkTheme = useSelector(selectIsDarkTheme);
 
   return (
-    
-      <ThemeProvider theme={isDarkTheme ? themeDark : themeLight}>
-        <Normalize />
-        <GlobalStyle />
-        <PersonalHomepage />
-      </ThemeProvider>
-    
+    <ThemeProvider theme={isDarkTheme ? themeDark : themeLight}>
+      <Normalize />
+      <GlobalStyle />
+      <PersonalHomepage />
+    </ThemeProvider>
   );
-}
+};
 
 export default App;

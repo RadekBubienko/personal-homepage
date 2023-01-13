@@ -3,7 +3,6 @@ import { Loading } from "./Loading";
 import { Repositories } from "./Repositories";
 
 export const Content = ({ status, repositories }) => {
-
   switch (status) {
     case "initial":
       return null;
@@ -13,11 +12,11 @@ export const Content = ({ status, repositories }) => {
 
     case "error":
       return <ErrorBox />;
-      
+
     case "succes":
-      return <Repositories repositories={repositories} />
-      
+      return <Repositories repositories={repositories} />;
+
     default:
-      throw new Error(`incorrect status: ${status}`);  
+      throw new Error(`incorrect status: ${status}`);
   }
 };

@@ -1,7 +1,16 @@
 import myPhoto from "./myPhoto.jpg";
-import { Avatar, StyledButtonLink, ButtonIcon, Name, Summary, ThisIs, Wrapper, Icon } from "./styled.js";
+import {
+  Avatar,
+  StyledButtonLink,
+  ButtonIcon,
+  Name,
+  Summary,
+  ThisIs,
+  Wrapper,
+  Icon,
+} from "./styled.js";
 import man from "./man.png";
-import laptop from "./laptop.png"
+import laptop from "./laptop.png";
 import { email } from "../email";
 
 export const MainInformation = () => (
@@ -13,7 +22,8 @@ export const MainInformation = () => (
       <Summary>
         <Icon src={man} alt="" />
         <Icon src={laptop} alt="" />
-        I`m an enthusiastic Frontend Developer in friendship with React, currently looking for new job opportunities and challenges.
+        I`m an enthusiastic Frontend Developer in friendship with React,
+        currently looking for new job opportunities and challenges.
       </Summary>
       <StyledButtonLink href={`mailto:${email}`} title={email}>
         <ButtonIcon />
