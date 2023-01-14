@@ -1,6 +1,6 @@
 import { select, call, takeLatest } from "redux-saga/effects";
 import { toggleTheme, selectIsDarkTheme } from "./themeSlice";
-import { saveIsDarkThemeInLocalStorage } from "./isDarkThemeLocalStoprage";
+import { saveIsDarkThemeInLocalStorage } from "./isDarkThemeLocalStorage";
 
 function* saveIsDarkThemeInLocalStorageHandler() {
   const isDarkTheme = yield select(selectIsDarkTheme);
