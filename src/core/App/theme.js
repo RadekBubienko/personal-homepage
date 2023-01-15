@@ -10,7 +10,7 @@ const colorNames = {
   whiteLilac: "#FBFBFE",
   porcelain: "#F2F3F4",
   mercury: "#e5e5e5",
-  slateGrey: "#6E7E91",
+  slateGrey: "#555b63",
   doveGrey: "#6D6D6D",
   tundora: "#414141",
   mineShaft: "#252525",
