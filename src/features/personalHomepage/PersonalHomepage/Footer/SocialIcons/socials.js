@@ -16,7 +16,7 @@ export const socials = [
   // },
   {
     name: "LinkedIn",
-    url: "http://linkedin.com/in/radek-bubienko-560b7b144/",
+    url: "http://linkedin.com/in/radek-bubienko",
     Icon: styleIcon(LinkedInIcon),
   },
 ];
