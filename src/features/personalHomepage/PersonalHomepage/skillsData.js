@@ -22,10 +22,9 @@ export const skills = [
   "Error handling",
   "PHP",
   "SQL",
-  "Joomla",
   "Scrum",
   "Trello",
   "Teamwork",
 ];
 
-export const nextSkills = ["Js classes", "TypeScript", "Node.js", "PL/SQL"];
+export const nextSkills = ["TypeScript", "Node.js", "Symfony"];
