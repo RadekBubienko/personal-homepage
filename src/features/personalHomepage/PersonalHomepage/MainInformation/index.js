@@ -9,6 +9,7 @@ import {
   Wrapper,
   Icon,
 } from "./styled.js";
+import ico from "./office4.ico"
 import man from "./man.png";
 import laptop from "./laptop.png";
 import { email } from "../email";
@@ -22,7 +23,8 @@ export const MainInformation = () => (
       <Summary>
         <Icon src={man} alt="" />
         <Icon src={laptop} alt="" />
-        I`m an enthusiastic Frontend Developer in friendship with React,
+        <Icon src={ico} alt="" />
+        &nbsp;I`m an enthusiastic Frontend Developer in friendship with React,
         currently looking for new job opportunities and challenges.
       </Summary>
       <StyledButtonLink href={`mailto:${email}`} title={email}>
