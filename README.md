@@ -6,7 +6,7 @@
 Personal homepage that presents informations about my skills and created projects.
 
 ## Demo
-Open [https://radekbubienko.github.io/personal-homepage/](https://radekbubienko.github.io/personal-homepage/)
+Open [https://bubienko.pl](https://bubienko.pl/)
 
 ## Technologies
 - React
