@@ -71,6 +71,12 @@ export const Icon = styled.img`
   width: 24px;
 `;
 
+export const Ilove = styled.img`
+  margin-left: 12px;
+  vertical-align: text-bottom;
+  width: 64px;
+`;
+
 export const StyledButtonLink = styled(ButtonLink)`
   display: inline-flex;
   align-items: center;
