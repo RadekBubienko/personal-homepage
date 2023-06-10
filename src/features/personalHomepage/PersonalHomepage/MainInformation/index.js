@@ -25,7 +25,7 @@ export const MainInformation = () => (
         <Icon src={man} alt="" />
         <Icon src={laptop} alt="" />
         <Icon src={ico} alt="" />
-        &nbsp;I`m an enthusiastic Frontend & Backend Developer in friendship with React,
+        &nbsp;I`m an enthusiastic Frontend & Backend Developer in friendship with React, PHP,
         currently looking for new job opportunities and challenges.
       </Summary>
       <StyledButtonLink href={`mailto:${email}`} title={email}>
